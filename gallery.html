@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Cameron Pfeffer</title>
+<meta name="description" content="Astronomical images from Cameron Pfeffer's observing runs.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Cameron Pfeffer</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="papers.html">Papers</a>
+      <a href="grants.html">Grants</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section wrap first">
+    <h2>Gallery</h2>
+    <p class="section-intro">IRTF / MORIS guide-camera images from recent observing runs.</p>
+    <div class="gallery-grid">
+      <a class="gallery-item" href="images/moris-2026ejy.webp" target="_blank" rel="noopener">
+        <img src="images/moris-2026ejy.webp" alt="MORIS guider image, target 2026ejy">
+      </a>
+      <a class="gallery-item" href="images/moris-2026kie.webp" target="_blank" rel="noopener">
+        <img src="images/moris-2026kie.webp" alt="MORIS guider image, target 2026kie">
+      </a>
+      <a class="gallery-item" href="images/moris-2026kid.webp" target="_blank" rel="noopener">
+        <img src="images/moris-2026kid.webp" alt="MORIS guider image, target 2026kid">
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; <span id="year"></span> Cameron Pfeffer</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/cameronpfeffer/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://bsky.app/profile/cmpfeffer.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
