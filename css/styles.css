@@ -165,6 +165,8 @@ a:hover { text-decoration: underline; }
 .float-img.right { float: right; margin-left: 28px; }
 .float-img.large { width: 380px; max-width: 46%; }
 .float-img.small { width: 220px; max-width: 34%; }
+.float-img.clear-left,
+.research-block p.clear-left { clear: left; }
 .float-img img {
   width: 100%;
   border-radius: 10px;
