@@ -258,6 +258,20 @@ a:hover { text-decoration: underline; }
   object-fit: contain;
 }
 
+.viewer-card {
+  display: block;
+  margin-bottom: 24px;
+  padding: 20px 22px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+}
+.viewer-card:hover { border-color: var(--accent); text-decoration: none; }
+.viewer-card-title { display: block; font-weight: 600; font-size: 1.15rem; color: var(--accent); margin-bottom: 6px; }
+.viewer-card-text { display: block; }
+.viewer-card-meta { display: block; margin-top: 8px; font-size: 0.85rem; color: var(--text-muted); }
+
 /* CV */
 .cv-embed {
   border: 1px solid var(--border);
